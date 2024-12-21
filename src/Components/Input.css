@@ -1,0 +1,48 @@
+.flex
+{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding : 12px;
+    justify-content: space-between;
+    height: 15vh;
+   
+    border-radius: 1.2dvb;
+    
+
+}
+label
+{
+    color : rgb(93, 90, 90)
+}
+.field
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: large;
+}
+input[type="number"]
+{
+    border: none;
+    font-size: large;
+    color: black;
+    
+}
+input:focus{
+    outline: none;
+}
+select
+{
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 1.2dvb;
+    height: 5vh;
+    width : 4vw;
+    align-self: self-end;
+    font-size:600;
+    
+}
+select:focus{
+    outline: none;
+}

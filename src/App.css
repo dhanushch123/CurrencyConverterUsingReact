@@ -1,0 +1,48 @@
+.container
+{
+  height : 60vh;
+  width : 60vw;
+  margin : 15vh auto;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.4);
+  outline: 2px solid white;
+  border-radius: 1.2dvb;
+  padding: 25px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  position : relative;
+}
+
+button
+{
+  background-color: dodgerblue;
+  color: white;
+  height:7vh;
+  font-size: larger;
+  border: none;
+  border-radius: 1.2dvb;
+}
+
+.btn
+{
+  background-color: dodgerblue;
+  border: none;
+  height : 41px;
+  width : 41px;
+  border-radius: 25%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  font-weight: 900;
+  position : absolute;
+
+  top : 20.9vh;
+  left : 28vw;
+  
+ 
+  
+}
